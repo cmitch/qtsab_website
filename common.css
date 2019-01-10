@@ -91,3 +91,9 @@ footer {
 	position: absolute;
 }
 
+#logo {
+	display: block;
+	margin-right: auto;
+	margin-left:auto;
+}
+
