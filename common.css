@@ -105,6 +105,10 @@ body, footer {
 	font-family: Cambria;
 }
 
+body {
+	display: table;
+}
+
 abbr {
 	text-decoration: None;
 }
