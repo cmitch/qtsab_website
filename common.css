@@ -127,6 +127,13 @@ footer {
 	display: block;
 	margin: 0 auto;
 	float: right;
-	position: relative;
 	height: calc(100% - 7em);
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
 }
