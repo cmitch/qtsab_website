@@ -113,8 +113,8 @@ abbr {
 
 footer {
 	bottom: 15px;
-	position: relative;
-	top: 15px;
+	position: absolute;
+
 	display: block;
 }
 
