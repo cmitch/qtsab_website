@@ -1,25 +1,25 @@
 @charset "UTF-8";
 
 a:link {
-    color: green; 
+    color: black; 
     background-color: transparent; 
     text-decoration: none;
 }
 
 a:visited {
-    color: green;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: green;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:active {
-    color: green;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
@@ -29,7 +29,6 @@ a:active {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	background-color: #333333
 }
 
 .navitem {
@@ -43,6 +42,31 @@ li .navlink {
 	text-align: center;
 	text-decoration: none;
 	display: block;
+}
+
+
+#linkr {
+	background-color: red;
+}
+
+#linko {
+	background-color: orange;
+}
+
+#linky {
+	background-color: yellow;
+}
+
+#linkg {
+	background-color: green
+}
+
+#linkb {
+	background-color: blue;
+}
+
+#linkp {
+	background-color: purple;
 }
 
 li .navlink:hover {
@@ -62,8 +86,7 @@ abbr {
 }
 
 footer {
-	bottom: 0;
-	height: 100px;
+	bottom: 15px;
 	position: absolute;
 }
 
