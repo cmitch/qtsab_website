@@ -116,7 +116,7 @@ footer {
 	position: absolute;
 	height: 2.5rem;
 	display: block;
-	padding-bottom: 15px
+
 }
 
 #logo {
@@ -136,8 +136,8 @@ footer {
 
 #page-container {
   position: relative;
-  min-height: calc(100vh + 2.5em);
+  min-height: 100vh;
 }
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 5rem;    /* Footer height */
 }
