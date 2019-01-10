@@ -130,8 +130,8 @@ footer {
 	display: block;
 	margin: 15px 15px 0px 15px;
 	float: right;
-	width: 340px;
-	height: 400px;
+	width: 340em;
+	height: 400em;
 	border: none;
 	overflow: hidden;
 }
