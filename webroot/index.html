@@ -2,11 +2,35 @@
 <html>
 <head>
 <title>QTSAB Homepage</title>
+	<link href="../css/common.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
-<h1>QTSAB-Queer Trans South Asians at Berkeley</h1>
+<nav>
+	<ul id="navmenu">
+	<li class="navitem"><a class="navlink" href="." >Home</a></li>
+	<li class="navitem"><a class="navlink" href="">About Us</a></li>
+	<li class="navitem"><a class="navlink" href="Team Members">Team Members</a></li>
+	<li class="navitem"><a class="navlink" href="Calendar">Calendar</a></li>
+	</ul>
+</nav>
+	
+<h1>
+	QTSAB-Queer Trans South Asians at Berkeley</h1>
 <h2>Welcome!</h2>
+	
+	<iframe id="forum_embed"
+  src="javascript:void(0)"
+  scrolling="no"
+  frameborder="0"
+  width="900"
+  height="700">
+</iframe>
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/a/lists.berkeley.edu/forum/embed/?place=forum/qtsab'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script>
 </body>
 <footer>
 <p>We are a student group acting independently of the University of California.
