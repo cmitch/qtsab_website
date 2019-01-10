@@ -50,7 +50,7 @@ li .navlink:hover {
 }
 
 
-body footer {
+body, footer {
 	text-align: left;
 	background-color: #111111;
 	color: white;
