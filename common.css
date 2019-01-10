@@ -127,7 +127,6 @@ footer {
 	display: block;
 	margin: 0 auto;
 	float: right;
-	height: calc(100% - 7em);
 }
 
 #page-container {
