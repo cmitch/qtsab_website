@@ -136,7 +136,7 @@ footer {
 
 #page-container {
   position: relative;
-  min-height: 100vh;
+  min-height: calc(100vh + 2.5em);
 }
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
