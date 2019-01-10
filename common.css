@@ -3,25 +3,25 @@
 a:link {
 	color: white; 
     background-color: transparent; 
-    text-decoration: none;
+
 }
 
 a:visited {
     color: white;
     background-color: transparent;
-    text-decoration: none;
+
 }
 
 a:hover {
     color: black;
     background-color: transparent;
-    text-decoration: none;
+
 }
 
 a:active {
     color: black;
     background-color: transparent;
-    text-decoration: none;
+
 }
 
 .navlink:link {
@@ -95,8 +95,7 @@ li .navlink {
 }
 
 li .navlink:hover {
-	background-color: #2C6AAF;
-	border: medium black;
+	background-color: transparent;
 }
 
 
