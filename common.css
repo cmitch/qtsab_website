@@ -1,24 +1,48 @@
 @charset "UTF-8";
 
 a:link {
-    color: black; 
+	color: white; 
     background-color: transparent; 
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
     color: white;
     background-color: transparent;
     text-decoration: none;
 }
 
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navlink:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+.navlink:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navlink:active {
     color: black;
     background-color: transparent;
     text-decoration: none;
@@ -71,7 +95,8 @@ li .navlink {
 }
 
 li .navlink:hover {
-	background-color: #111111;
+	background-color: #2C6AAF;
+	border: medium black;
 }
 
 
@@ -88,7 +113,9 @@ abbr {
 
 footer {
 	bottom: 15px;
-	position: absolute;
+	position: relative;
+	top: 15px;
+	display: block;
 }
 
 #logo {
@@ -96,4 +123,10 @@ footer {
 	margin-right: auto;
 	margin-left:auto;
 }
-
+#fb {
+	display: block;
+	margin: 0 auto;
+	float: right;
+	position: relative;
+	height: calc(100% - 7em);
+}
