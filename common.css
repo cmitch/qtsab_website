@@ -112,10 +112,11 @@ abbr {
 }
 
 footer {
-	bottom: 15px;
+	bottom: 0px;
 	position: absolute;
 	height: 2.5rem;
 	display: block;
+	padding-bottom: 15px
 }
 
 #logo {
@@ -135,7 +136,7 @@ footer {
 
 #page-container {
   position: relative;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
