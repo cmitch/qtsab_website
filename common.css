@@ -23,6 +23,11 @@ a:active {
 
 }
 
+.navlink {
+	padding: 10px 10px;
+	display: inline-block;
+}
+
 .navlink:link {
     color: black; 
     background-color: transparent; 
@@ -56,6 +61,8 @@ a:active {
 
 .navitem {
 	float:left;
+	height: 60px;
+	margin: 0;
 }
 
 li .navlink {
