@@ -157,7 +157,7 @@ footer {
 
 #page-container {
   position: relative;
-  min-height: 100vh;
+  min-height: 90vh;
   height: 90%;
 }
 #content-wrap {
