@@ -77,6 +77,9 @@ li .navlink {
 	text-decoration: none;
 	display: block;
 	width: 100px;
+	margin: 0;
+ 	-ms-transform: translateY(-50%);
+	font-size: 20px
 }
 
 
